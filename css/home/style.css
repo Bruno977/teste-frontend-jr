@@ -315,10 +315,10 @@
 
 }
 
-/* Seção Seja um parceiro */
+/* Seção Seja um parceiro de venda com um site poderoso*/
 
 .partner-container{
-    border-bottom: 2px solid #E7E7E7;
+
     border-top: 2px solid #E7E7E7;
     padding: 4rem calc((100% - 1440px) /2);
    
@@ -377,4 +377,15 @@
         width: 70%;
     }
 
+}
+
+/* Seção Seja um parceiro e ganhe dinheiro*/
+
+.order-description{
+    margin-left: 3rem;
+}
+@media(max-width: 768px){
+    .order-description{
+        margin-left: auto;
+    }
 }
