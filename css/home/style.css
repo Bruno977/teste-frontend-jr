@@ -346,6 +346,7 @@
 }
 .partner-description p{
     margin: 1rem 0;
+    font-weight: 300;
     line-height: 25px;
 }
 .partner-description li{
@@ -357,6 +358,7 @@
 .partner-description li{
     list-style: disc;
     list-style-position: inside;
+    font-weight: 300;
 }
 
 @media(max-width: 768px){
@@ -428,6 +430,11 @@
 .plans-card h2{
     font-size: 1em;
 }
+.title-include{
+    font-size: 0.875em;
+    margin-bottom: 1rem;
+    color: #fff;
+}
 
 .plans-card span{
     display: block;
@@ -454,6 +461,7 @@
     align-items: center;
     font-size: 0.75em;
     line-height: 25px;
+    color: #fff;
 
  
 
@@ -500,9 +508,9 @@
     }  */
 }  
 
-/* Garantia de satisfação */
+/* Footer Garantia de satisfação */
 
-.warranty-container{
+.footer-container{
     padding: 0 calc((100% - 1440px)/2);
 }
 .warranty{
@@ -531,9 +539,36 @@
     font-weight: 300;
     font-size: 0.875em;
 }
+
+/* Footer */
+
+.contact{
+    text-align: center;
+}
+.contact img{
+    margin: 0 auto;
+}
+.contact div:first-child{
+    margin: 3rem 0 7rem 0;
+}
+.contact h2{
+    font-size: 1.5em;
+    color: #394349;
+}
+.contact div p{
+    color: #57646D;
+    font-weight: 300;
+    
+}
+.contact div:last-child p{
+    text-transform: uppercase;
+}
+.contact div:last-child{
+    margin-bottom: 2rem;
+}
+
 @media(max-width: 768px){
     .warranty{
-        /* flex-direction: column; */
         max-height: 80px;
         
     }
