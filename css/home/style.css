@@ -231,7 +231,7 @@
     font-weight: 300;
     font-size: 0.875em;
     color: #fff;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .size-btn{
@@ -273,6 +273,7 @@
     color: #394349;
     text-align: center;
     margin-bottom: 2rem;
+    
 }
 
 .how-work {
@@ -381,11 +382,121 @@
 
 /* Seção Seja um parceiro e ganhe dinheiro*/
 
-.order-description{
+.position-description{
     margin-left: 3rem;
 }
 @media(max-width: 768px){
-    .order-description{
+    .position-description{
         margin-left: auto;
     }
 }
+
+/* Seção de planos */
+
+.plans-container{
+    padding: 4rem calc((100% - 1440px) /2);
+    background: #9270FB;
+}
+.plans-container h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-bottom: 3rem;
+}
+
+.plans{
+    margin: 0 calc(3rem - 10px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plans-item{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.plans-card{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    margin: 1rem 0;
+    max-height: 300px;
+}
+.plans-card h2{
+    font-size: 1em;
+}
+
+.plans-card span{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #9270FB;
+}
+
+.plans-card p{
+    margin-bottom: 3rem;
+    font-size: 0.75em;
+    font-weight: 300;
+    display: block;
+    max-height: 40px;
+}
+.btn-upper{
+
+    text-transform: uppercase;
+}
+
+.plans-item li{
+    display: flex;
+    align-items: center;
+    font-size: 0.75em;
+    line-height: 25px;
+
+ 
+
+}
+.plans-item li::before{
+    content: "";
+    margin-right: 1rem;
+    width: 16px;
+    height: 16px;
+    background: url("../../assets/img/check.png") no-repeat center;
+
+}
+
+/* .button{
+    display: none;
+} */
+
+@media(max-width: 768px){
+    .plans{
+        flex-direction: column;
+    }
+    /* }
+    .button{
+        display: block;
+    }
+    .list-items {  
+        
+        position: absolute;
+    
+        width: 100%;
+        height: 300px;
+  
+    } 
+    
+    .dropdown .list-items li{  
+        display: none;
+    }  
+    .dropdown.active .list-items li{  
+        display: flex;
+
+    }  
+    .dropdown.active{  
+        height: 280px;
+    }  */
+}  
+
+
