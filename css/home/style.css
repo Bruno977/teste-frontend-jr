@@ -1,7 +1,7 @@
 /* Header */
 
 #header-container{
-    padding: 1rem calc((100% - 1440px)/2);
+    padding: 1rem calc((100% - 1400px)/2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,13 +140,13 @@
 
     opacity: 10%;
 }
-.introduction h1{
+.title{
   
     max-width: 550px;
     font-weight: 300;
     font-size: 1.9em;
 }
-.introduction span{   
+.title span{   
     font-weight: bold;
 }
 .introduction p{
@@ -162,6 +162,11 @@
     color: #fff;
     font-size: 14px;
     text-align: center;
+}
+.btn-introducao{
+    max-width: 300px;
+    width: auto;
+    margin: 0 auto;
 }
 
 @media(max-width: 768px){
@@ -210,7 +215,7 @@
 /* Serviços */
 
 .services-container{
-    padding-left: calc((100% - 1440px) /2);
+    padding-left: calc((100% - 1400px) /2);
     background: #9270FB;
 }
 .services-container h2  {
@@ -335,7 +340,7 @@
 .partner-container{
 
     border-top: 2px solid #E7E7E7;
-    padding: 4rem calc((100% - 1440px) /2);
+    padding: 4rem calc((100% - 1400px) /2);
    
 }
 .partner{
@@ -351,11 +356,11 @@
 .partner-img{
     flex: 1;
 }
-.partner-description h1{
+.title{
     font-weight: 300;
 
 }
-.partner-description span{
+.title span{
     font-weight: bold;
 }
 .partner-description p{
@@ -410,7 +415,7 @@
 /* Seção de planos */
 
 .plans-container{
-    padding: 4rem calc((100% - 1440px) /2);
+    padding: 4rem calc((100% - 1400px) /2);
     background: #9270FB;
     position: relative
 }
@@ -525,7 +530,7 @@
 /* Footer Garantia de satisfação */
 
 .footer-container{
-    padding: 0 calc((100% - 1440px)/2);
+    padding: 0 calc((100% - 1400px)/2);
 }
 .warranty{
     position: relative;
