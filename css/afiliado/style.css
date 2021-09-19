@@ -140,3 +140,37 @@
         flex-direction: column;
     }
 }
+
+/* Venda mais com um site poderoso */
+
+.border-partner{
+    border: none;
+}
+
+/* Vantagens do serviço */
+
+.position-services h1{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+    color: #fff;
+    max-width: 40%;
+    
+}
+.btn-services{
+    max-width: 20%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+@media(max-width: 768px){
+    .position-services h1{
+        margin: 0 3rem;
+        max-width: 100%;
+    }
+    .btn-services{
+        margin: 0 auto;
+        max-width: 60%;
+    }
+    
+}
