@@ -12,7 +12,16 @@ img{
     max-width: 100%;
     
 }
-
+p{
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+h1{
+    font-weight: 300;
+}
+h1 span{
+    font-weight: bold;
+}
 @media (max-width: 1080px){
     html {
       font-size: 93.75%;

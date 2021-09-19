@@ -2,6 +2,7 @@
 /* Introdução */
 .partner-position{
     margin-top: 7rem;
+    margin-bottom: 2rem;
     border: none;
 }
 .description-position{
@@ -24,3 +25,118 @@
 
 /* Sobre contabilidade */
 
+.accounting{
+    background: #F3F4F8;
+    
+}
+.accounting h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 30%;
+
+}
+.accounting > p{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    max-width: 40%;
+}
+.cards-accounting{
+    margin: 0 3rem;
+    padding: 0 calc((100% - 1400px) /2);
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-item{
+    flex: 1 1 200px;
+    margin: 10px; 
+    padding: 20px;
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-item h2{
+    font-size: 1em;
+    text-align: center;
+}
+.card-item p{
+    font-size: 0.875em;
+    padding-top: 30px;
+    text-align: center;
+}
+.color1{
+    border-top: 3px solid #B975FE;
+}
+.color2{
+    border-top: 3px solid #76E368;
+}
+.color3{
+    border-top: 3px solid #eb4954;
+}
+.color4{
+    border-top: 3px solid #67D8BF;
+}
+.color5{
+    border-top: 3px solid #30A3FB;
+}
+.color6{
+    border-top: 3px solid #E872E4;
+}
+.color7{
+    border-top: 3px solid #79EB81;
+}
+.color8{
+    border-top: 3px solid #B8DF8E;
+}
+
+.accounting a{
+    max-width: 30%;
+    margin: 2rem auto;
+}
+
+.partners p{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.partners div{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partners img{
+    padding: 10px;
+}
+
+@media(max-width: 1024px){
+    .accounting h1{
+        max-width: 100%;
+    }
+    .accounting > p{
+        max-width: 100%;
+        margin: 0 3rem;
+    }
+    .partners img{
+        padding: 10px;
+    }
+    
+}
+@media(max-width: 600px){
+    .accounting a{
+        max-width: 100%;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .accounting h1{
+        margin: 0 3rem;
+    }
+}
+@media(max-width: 400px){
+    .partners div{
+        flex-direction: column;
+    }
+}
