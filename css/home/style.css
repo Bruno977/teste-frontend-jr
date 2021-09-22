@@ -140,13 +140,13 @@
 
     opacity: 10%;
 }
-.title{
+.introduction h1{
   
     max-width: 550px;
     font-weight: 300;
     font-size: 1.9em;
 }
-.title span{   
+.introduction h1 span{   
     font-weight: bold;
 }
 .introduction p{
@@ -356,11 +356,10 @@
 .partner-img{
     flex: 1;
 }
-.title{
+.partner-description{
     font-weight: 300;
-
 }
-.title span{
+.partner-description h1 span{
     font-weight: bold;
 }
 .partner-description p{
