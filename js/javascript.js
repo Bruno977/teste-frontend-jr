@@ -1,4 +1,4 @@
-// Botão Nav Bar
+// INICIO NAVBAR
 
 const btnResponsive = document.getElementById("btn-responsive");
 
@@ -17,6 +17,9 @@ function closeNav() {
 }
 
 clickLink.addEventListener("click", closeNav);
+//FIM NAVBAR
+
+// INICIO SIMULAÇÃO DE VENDAS
 // Incrementa input através do botão +
 function increments() {
   let newValue = 0;
@@ -60,9 +63,10 @@ function limitInput() {
     sales.value = 999;
   }
 }
+//FIM SIMULAÇÃO DE VENDAS
 
+//INICIO PERGUNTAS
 // Mostra e oculta perguntas
-
 const questions = document.querySelectorAll(".question");
 
 function showQuestions(event) {
@@ -72,3 +76,4 @@ function showQuestions(event) {
 questions.forEach((item) => {
   item.addEventListener("click", showQuestions);
 });
+//FIM PERGUNTAS
