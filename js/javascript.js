@@ -9,6 +9,14 @@ function toggleMenu() {
 }
 btnResponsive.addEventListener("click", toggleMenu);
 
+const clickLink = document.getElementById("menu");
+
+function closeNav() {
+  const removeClassActive = document.getElementById("nav");
+  removeClassActive.classList.remove("active");
+}
+
+clickLink.addEventListener("click", closeNav);
 // Incrementa input através do botão +
 function increments() {
   let newValue = 0;
@@ -38,6 +46,7 @@ function totalSales() {
       (sales + 4) *
       134.85
     ).toLocaleString("pt-br", { minimumFractionDigits: 2 });
+    limitInput();
   }
 }
 

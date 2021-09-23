@@ -67,10 +67,8 @@
     }
     #nav.active #menu{
         height: calc(100vh - 60px);
-    
         visibility: visible;
     }
- 
     #menu a{
         font-size: 1.10em;
         border: none;
@@ -121,6 +119,7 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
 }
 
 /* Introdução Home */
@@ -284,7 +283,8 @@
 /* Como Funciona */
 
 .how-work-container{
-    padding: 4rem calc((100% - 960px) /2);
+    padding: 5rem calc((100% - 960px) /2);
+
     
 }
 
@@ -340,7 +340,7 @@
 .partner-container{
 
     border-top: 2px solid #E7E7E7;
-    padding: 4rem calc((100% - 1400px) /2);
+    padding: 5rem calc((100% - 1400px) /2);
    
 }
 .partner{
@@ -414,7 +414,7 @@
 /* Seção de planos */
 
 .plans-container{
-    padding: 4rem calc((100% - 1400px) /2);
+    padding: 5rem calc((100% - 1400px) /2);
     background: #9270FB;
     position: relative
 }
@@ -493,37 +493,12 @@
 
 }
 
-/* .button{
-    display: none;
-} */
 
 @media(max-width: 768px){
     .plans{
         flex-direction: column;
     }
-    /* }
-    .button{
-        display: block;
-    }
-    .list-items {  
-        
-        position: absolute;
-    
-        width: 100%;
-        height: 300px;
-  
-    } 
-    
-    .dropdown .list-items li{  
-        display: none;
-    }  
-    .dropdown.active .list-items li{  
-        display: flex;
-
-    }  
-    .dropdown.active{  
-        height: 280px;
-    }  */
+   
 }  
 
 /* Footer Garantia de satisfação */

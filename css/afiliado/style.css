@@ -27,13 +27,12 @@
 
 .accounting{
     background: #F3F4F8;
-    
+    padding: 5rem calc((100% - 1400px) /2);
 }
 .accounting h1{
     text-align: center;
-    margin-top: 1rem;
-    margin: 0 auto;
-    padding: 30px 0;
+    margin: 0 auto 1rem auto;
+
     max-width: 30%;
 
 }
@@ -45,7 +44,7 @@
 }
 .cards-accounting{
     margin: 0 3rem;
-    padding: 0 calc((100% - 1400px) /2);
+    
 }
 .cards{
     display: flex;
@@ -148,7 +147,9 @@
 }
 
 /* Vantagens do serviço */
-
+.position-services{
+    padding-top: 1rem;
+}
 .position-services h1{
     text-align: center;
     margin: 0 auto;
@@ -177,7 +178,7 @@
 
 /* Simulação  */
 .simulate-container{
-    padding: 4rem calc((100% - 1400px)/2);
+    padding: 5rem calc((100% - 1400px)/2);
     background: #344451;
 }
 .simulate-container h1{
