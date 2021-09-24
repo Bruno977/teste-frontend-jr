@@ -1,3 +1,4 @@
+// Animação no scroll
 const sections = document.querySelectorAll(".js-scroll");
 if (sections.length) {
   const windowHalf = window.innerHeight * 0.6;

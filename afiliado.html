@@ -19,7 +19,7 @@
   <body>
     <header id="header-container">
       <a href="./index.html">
-        <img src="assets/img/eumei-online.png" alt="Logo" />
+        <img src="assets/img/eumei-online.png" id="logo" alt="Logo" />
       </a>
       <nav id="nav">
         <button id="btn-responsive">
@@ -228,7 +228,7 @@
             Selecione a quantidade de vendas e veja sua comissão em cada plano
           </p>
           <div class="input-comission">
-            <input type="number" id="sales" value="0" min="0" />
+            <input type="number" id="sales" value="1" min="0" max="100" />
             <button onclick="increments()">
               <img src="./assets/img/plus.svg" alt="Adiciona" />
             </button>

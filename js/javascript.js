@@ -7,6 +7,7 @@ function toggleMenu() {
 
   nav.classList.toggle("active");
 }
+
 btnResponsive.addEventListener("click", toggleMenu);
 
 const clickLink = document.getElementById("menu");
@@ -17,6 +18,7 @@ function closeNav() {
 }
 
 clickLink.addEventListener("click", closeNav);
+
 //FIM NAVBAR
 
 // INICIO SIMULAÇÃO DE VENDAS
@@ -26,6 +28,10 @@ function increments() {
   let currentvalue = Number(document.getElementById("sales").value);
   newValue = currentvalue + 1;
   document.getElementById("sales").value = newValue;
+  if (sales.value.length > 3) {
+    sales.value = 999;
+  }
+
   totalSales();
 }
 
@@ -49,20 +55,19 @@ function totalSales() {
       (sales + 4) *
       134.85
     ).toLocaleString("pt-br", { minimumFractionDigits: 2 });
-    limitInput();
+    // limitInput();
   }
 }
-
+totalSales();
 // Pega input
 const sales = document.getElementById("sales");
 sales.addEventListener("keyup", totalSales);
-
 // Limita valor do input
-function limitInput() {
-  if (Number(sales.value) >= 999) {
-    sales.value = 999;
+sales.oninput = function () {
+  if (sales.value.length > 3) {
+    sales.value = sales.value.slice(0, 3);
   }
-}
+};
 //FIM SIMULAÇÃO DE VENDAS
 
 //INICIO PERGUNTAS

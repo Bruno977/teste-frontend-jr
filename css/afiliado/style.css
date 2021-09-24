@@ -214,8 +214,8 @@
 }
 
 .card-sale{
-    flex: 1 1 150px;
- 
+    flex: 1 1 200px;
+    max-width: 100%;
     margin: 10px;
     padding: 25px;
 }
@@ -252,6 +252,7 @@
     width: 100%;
     padding: 15px;
     border: none;
+    max-width: 100%;
  
 }
 
@@ -279,15 +280,37 @@ input[type=number] {
 .card-sale span{
     color: #9970F9;
     font-size: 2em;
-   
 }
 .your-commission{
     margin-top: 1rem;
 }
 
+@media(max-width: 1024px){
+    .card-sale{
+        flex: 1 1 400px;
+    }
+}
+
 @media(max-width: 768px){
+ 
     .flecha img{
         display: none;
+    }
+    .simulate-container h1, .flecha p{
+        max-width: 100%;
+        margin: 0 3rem;
+    }
+    .flecha p{
+        margin: 1rem 3rem;
+    }
+}
+@media(max-width: 400px){
+    .card-sale{
+        max-width: 100%;
+    }
+    .cards-sale{
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 

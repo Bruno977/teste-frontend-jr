@@ -1,25 +1,41 @@
 # Teste Prático para Front-End Developer Jr
 
-Este é o teste usado pela Koden para avaliar tecnicamente os candidatos a nossas vagas de Frontend Jr. Se você estiver participando de um processo seletivo para nossa equipe, certamente em algum momento receberá este link.
+Esse teste foi desenvolvido utilizando Javascript, Css e Html.
 
-## Instruções
+## HTML
 
-Você deverá criar um `fork` deste projeto, e desenvolver em cima do seu fork. Use o README principal do seu repositório contar como foi seu teste.
+O html foi divido em duas partes, **index.html** e **afiliado.html**
+O index é onde fica localizado a home e o afiliados é a segunda tela do site.
+As páginas foram separadas por seções:
 
-Lembre-se de que este é um teste técnico e não uma situação de vida ou morte, portanto, não há apenas uma forma correta de resolvê-lo
+**index.html**
 
-Nós não estipulamos um tempo limite para a resolução do teste, o que valé é o resultado final.
+- Header (navbar)
+- Seção introdução
+- Seção video e serviços
+- Seção como funciona
+- Seção para ser parceiro
+- Seção de planos
+- Footer
 
-## O teste
+**afiliado.html**
 
-Você vai construir um website simples de duas páginas para uma empresa que fornece serviços digitais para Micro Empreendedores Individuais.
+- Header (navbar)
+- Seção introdução
+- Seção contabilidade
+- Seção parceiro
+- Seção Vantagens
+- Seção simulação de vendas
+- Seção de perguntas
+- Footer
 
-A página incial contém informações de como os serviços funcionam, seus preços e como prosseguir para contratação.
+## CSS
 
-A página seguinte é referente ao programa de parceiros, nela contém as informações necessárias para aceder ao programa de parceria e um área para calcular as comissões que serão enviadas ao parceiro baseado na quantidade de vendas dele.
+Para estilização foi utilizado o flexbox.
+O site foi desenvolvido de modo responsivo se adptando a todos os formatos de tela.
 
-A interface estará disponível em **assets/layout** e as imagens em **assets/img**
+Possui um arquivo **global.css** onde fica algumas configurações gerais e cada página possui seu proprio css.
 
-Somente a interface Desktop está disponível nos arquivos, porém desejamos que você desenvolva uma versãp mobile também. A ideia é ver como você pensa ao adaptar a interface para dispositivos móveis.
+## JAVASCRIPT
 
-Desejamos um ótimo teste!
+Foi utilizado o javascript em conjunto com o CSS para realizar a animação do site, a simulação de vendas e a abertura e fechamento das perguntas.

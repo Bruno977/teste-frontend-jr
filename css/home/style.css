@@ -161,7 +161,7 @@
 .introduction p{
     margin: 20px 0;
     max-width: 600px; 
-    color: #CED5DB;
+    color: #96a0ad;
 }
 .btn{
     background: #69D18B;
@@ -445,6 +445,7 @@
 .plans-item{
     flex: 1;
     padding: 0 10px;
+    
 }
 
 .plans-card{
@@ -454,6 +455,8 @@
     padding: 20px;
     margin: 1rem 0;
     max-height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
 }
 .plans-card h2{
     font-size: 1em;
